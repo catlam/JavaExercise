@@ -63,7 +63,8 @@ public class Person {
 	public void setChildren(List<Person> children) {
 		this.children = children;
 	}
-	
+
+
 
 	public int getAge() {
 		return age;
@@ -82,12 +83,12 @@ public class Person {
 		return "Person [fullName=" + fullName + ", birthday=" + birthday + "]";
 	}
 
-	public void printFamilyTree(String indent) {
-        System.out.println(indent + this);
-        for (Person child : children) {
-            child.printFamilyTree(indent + "    ");
-        }
-	}
+//	public void printFamilyTree(String indent) {
+//        System.out.println(indent + this);
+//        for (Person child : children) {
+//            child.printFamilyTree(indent + "    ");
+//        }
+//	}
 	
 	
 ;}
